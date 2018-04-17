@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fileset dir="${doc.path}" includes="**/*">
+<fileset dir="/" includes="**/*">
     <filename name="**/*.cpp"/>
 </fileset>
