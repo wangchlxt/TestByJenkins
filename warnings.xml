@@ -1,4 +1,9 @@
-<fileset dir="./" casesensitive="yes">
-  <include name="**/*.cpp"/>
-  <exclude name="**/*Test*"/>
+<fileset dir="${basedir}">
+    <or>
+        <depth max="0"/>
+        <filename name="*.png"/>
+        <filename name="*.gif"/>
+        <filename name="*.jpg"/>
+		<filename name="*.cpp"/>
+    </or>
 </fileset>
