@@ -1,3 +1,4 @@
-<fileset dir="cp">
-    <filename name="**/*.cpp"/>
+<fileset dir="${server}" casesensitive="yes">
+  <include name="**/*.cpp"/>
+  <exclude name="**/*Test*"/>
 </fileset>
