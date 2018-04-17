@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fileset dir="cp"/>
+<fileset dir="cp" includes="**/*">
+    <filename name="**/*.cpp"/>
+</fileset>
