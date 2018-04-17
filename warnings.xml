@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fileset dir="/" casesensitive="yes">
-  <include name="**/*.cpp"/>
-  <exclude name="**/*Test*"/>
+<fileset>
+  <filename name="**/*.cpp"/>
 </fileset>
