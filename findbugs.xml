@@ -1,3 +1,10 @@
-<fileset dir="cp">
-    <filename name="**/*.cpp"/>
+<?xml version="1.0" encoding="utf-8"?>
+<fileset dir="${basedir}">
+    <or>
+        <depth max="0"/>
+        <filename name="*.png"/>
+        <filename name="*.gif"/>
+        <filename name="*.jpg"/>
+		<filename name="*.cpp"/>
+    </or>
 </fileset>
