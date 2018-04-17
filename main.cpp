@@ -9,12 +9,6 @@ int fun1()
 	printf("%d\n",a);
 }
 
-int fun2()
-{
-	int a = "abc";
-	printf("%d\n",a);
-}
-
 int main(int argc, char *argv[])
 {
 	fun1();
