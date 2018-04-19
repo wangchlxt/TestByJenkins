@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fileset dir="${basedir}">
+<fileset dir="./">
     <or>
         <depth max="0"/>
         <filename name="*.png"/>
