@@ -1,0 +1,103 @@
+2018-04-13 10:17:22,838 [15] INFO  用户登录，lt@biohermes，abcd1234
+2018-04-13 10:33:29,338 [72] INFO  用户登录，admin-KJ，abcd321
+2018-04-13 10:34:57,197 [65] ERROR System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QFlowCard.Services.Implements.LogService.WriteLog(LogHandleType handleType, String handleContent, String errorInfo)
+   在 QFlowCard.WebSite.Controllers.CardController.Export(String q) 位置 E:\work\P4\hugon.huang_sw-PC\PCutility\QDMserver\QFlowCard\QFlowCard.WebSite\Controllers\CardController.cs:行号 401
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+2018-04-13 10:35:06,244 [80] ERROR System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QFlowCard.Services.Implements.LogService.WriteLog(LogHandleType handleType, String handleContent, String errorInfo)
+   在 QFlowCard.WebSite.Controllers.CardController.Export(String q) 位置 E:\work\P4\hugon.huang_sw-PC\PCutility\QDMserver\QFlowCard\QFlowCard.WebSite\Controllers\CardController.cs:行号 401
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+2018-04-13 10:47:50,869 [115] INFO  http://120.26.213.169/api/card/1064705755964/status/
+2018-04-13 10:47:54,416 [115] INFO  返回结果：{"power_status": 1, "gprs_status": 2, "code": 200}
+2018-04-13 10:49:09,150 [113] INFO  http://120.26.213.169/api/card/1064711665209/status/
+2018-04-13 10:49:12,291 [113] INFO  返回结果：{"power_status": 0, "gprs_status": 1, "code": 200}
+2018-04-13 11:20:09,494 [38] INFO  用户登录，admin-KJTJ，zig.870324
+2018-04-13 11:20:31,885 [45] INFO  用户登录，admin-KJTJ，zjg.870324
+2018-04-13 11:21:43,900 [48] INFO  用户登录，admin-KJ，abcd321
+2018-04-13 11:24:39,447 [50] INFO  用户登录，admin-KJSZ，kangjia
+2018-04-13 11:25:09,510 [56] INFO  用户登录，admin-KJSZ，abcd321
+2018-04-13 11:26:39,947 [63] INFO  用户登录，admin-KJSZ，kangjia123
+2018-04-13 11:27:14,869 [66] INFO  用户登录，admin-KJ，abcd321
+2018-04-13 11:29:52,650 [66] INFO  用户登录，admin-KJBJ，zjg.870324
+2018-04-13 11:30:21,572 [66] INFO  用户登录，admin-KJTJ，zjg.870324
+2018-04-13 11:33:23,228 [87] INFO  用户登录，admin-KJ，abcd321
+2018-04-13 11:49:30,510 [12] INFO  用户登录，admin–KJ，abcd321
+2018-04-13 11:50:07,650 [13] INFO  用户登录，admin–KJ，abcd321
+2018-04-13 11:54:14,447 [30] INFO  用户登录，admin–KJ，abcd321
+2018-04-13 11:55:32,947 [24] INFO  用户登录，admin-KJ，abcd321
+2018-04-13 12:01:53,963 [19] INFO  http://120.26.213.169/api/card/1064705755955/status/
+2018-04-13 12:01:54,994 [19] INFO  返回结果：{"power_status": 1, "gprs_status": 2, "code": 200}
+2018-04-13 12:46:47,916 [115] INFO  用户登录，admin_xu，pear1234
+2018-04-13 13:38:26,119 [19] INFO  用户登录，quectel，quectel2017
+2018-04-13 13:41:54,478 [131] INFO  用户登录，quectel，quectel2017
+2018-04-13 13:56:20,947 [23] INFO  用户登录，admin_lubin，abcd1234
+2018-04-13 14:00:53,947 [44] INFO  http://120.26.213.169/api/card/1064710866873/status/
+2018-04-13 14:00:56,447 [44] INFO  返回结果：{"power_status": 0, "gprs_status": 1, "code": 200}
+2018-04-13 15:42:15,040 [178] INFO  用户登录，admin_hast，abcd1234
+2018-04-13 16:03:34,790 [204] INFO  用户登录，quectel，quectel2017
+2018-04-13 16:19:19,462 [206] INFO  用户登录，system，quec2017tel
+2018-04-13 16:32:08,328 [222] INFO  用户登录，soleil.xia@quectel.com，abcd1234
+2018-04-13 16:34:34,137 [218] INFO  用户登录，system，quec2017tel
+2018-04-13 17:11:58,975 [92] INFO  用户登录，system，quec2017tel
+2018-04-13 17:12:23,084 [89] INFO  用户登录，admin－KJ，abcd321
+2018-04-13 17:13:16,975 [15] INFO  用户登录，admin-KJ，abcd321
+2018-04-13 17:48:03,928 [138] INFO  http://120.197.89.173:8081/openapi/router?msisdn=13414469619&appKey=av9k31yibj&method=iot.member.terminalstatus.query&v=2.0&format=json&sign=BF772A3DA05CB2B2E5B1841BB8583A946057418B
+2018-04-13 17:48:04,037 [138] INFO  返回结果：{"resultCode":99,"errorMessage":"其它错误"}
+2018-04-13 17:48:05,146 [138] INFO  http://120.197.89.173:8081/openapi/router?msisdn=13414469619&appKey=av9k31yibj&method=iot.member.datausage.query&v=2.0&format=json&sign=FC615C02908FC36D047E91038D90C1CE42954619
+2018-04-13 17:48:06,240 [138] INFO  返回结果：{"resultCode":0,"errorMessage":"调用成功！","mobileNo":"13414469619","totalinfoList":[{"totalinfo":{"resourcesCount":"10240","usedresCount":"0","exceedusedCount":"0","ieavingsCount":"10240"}}]}
+2018-04-13 18:02:47,303 [93] INFO  用户登录，soleil.xia@quectel.com，abcd1234
+2018-04-13 18:06:34,724 [104] INFO  用户登录，admin_zjf，abcd1234
+2018-04-13 18:10:21,037 [113] ERROR System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QFlowCard.WebSite.Controllers.RemainingSumController.Index() 位置 E:\work\P4\hugon.huang_sw-PC\PCutility\QDMserver\QFlowCard\QFlowCard.WebSite\Controllers\RemainingSumController.cs:行号 28
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+2018-04-13 19:34:09,662 [73] INFO  用户登录，admin_lubin，abcd1234
+2018-04-13 20:02:09,427 [9] INFO  用户登录，quectel，quectel2017
