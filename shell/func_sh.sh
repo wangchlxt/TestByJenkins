@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 prt-lns(){
 echo "hello prt-lns()"
 }
