@@ -1,6 +1,14 @@
 #include <stdio.h>
 
-拉设计费了设计费三
+int abc()
+{
+	return null;
+}
+
+int int abc()
+{
+	
+}
 
 int main(int argc, char *argv[])
 {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
